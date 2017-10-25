@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.pereira.arthur.pi_vrcourser.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteY="121dp"
+        tools:layout_editor_absoluteX="8dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_txtUsuario"
+            />
+
+        <EditText
+            android:id="@+id/Login_edtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_txtSenha" />
+
+        <EditText
+            android:id="@+id/Login_edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/login_ckbConectado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_ckbConectado"/>
+
+        <Button
+            android:id="@+id/login_btnEntrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_btnEntrar"
+            android:background="#C0C0C0"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
